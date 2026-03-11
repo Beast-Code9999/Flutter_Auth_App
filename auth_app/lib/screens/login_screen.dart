@@ -1,3 +1,4 @@
+import 'package:auth_app/screens/signup_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -58,7 +59,20 @@ class _LoginScreenState extends State<LoginScreen> {
                     );
                   }
               }, 
-              child: Text("Login"))
+              child: Text("Login")),
+
+              // Sign up navigation link
+              TextButton(
+                onPressed: () {
+                  Navigator.push( // navigate to sign up screen
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SignupScreen()
+                    )
+                  );
+                }, 
+                child: Text("Sign Up")
+              )
           ],
         ),
       ),
