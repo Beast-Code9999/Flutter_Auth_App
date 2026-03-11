@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771640264524",
+    "project_id": "tms-learning",
+    "storage_bucket": "tms-learning.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771640264524:android:32ad6ed8093b90b9feb1e9",
+        "android_client_info": {
+          "package_name": "com.example.auth_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZfRcz34Hu_iKYmOmxVGPHx6vUVzD4HOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
